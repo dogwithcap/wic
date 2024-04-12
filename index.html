@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEW</title>
+
+    <script src='https://terminal.jup.ag/main-v2.js'></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="menu-toggle" onclick="toggleMenu()">
+              <div class="bar bar1"></div>
+              <div class="bar bar2"></div>
+              <div class="bar bar3"></div>
+            </div>
+            <ul class="menu" id="menu">
+              <img src="assets/images/Logo.svg" alt="">
+              <li><a href="#powered-by-solana">Jupiter</a></li>
+              <li><a target="_blank" href="https://birdeye.so/token/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5?chain=solana">Birdeye</a></li>
+              <li><a target="_blank" href="https://solscan.io/token/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5">Solscan</a></li>
+              <li><a href="#powered-by-solana">Get started</a></li>
+            </ul>
+        </div>
+        <img src="assets/images/Logo.svg" alt="logo" class="logo">
+        <h1 class="h1">cat in a dogs world</h1>
+        <img class="mew" src="assets/images/mew500.png" alt="">
+        <div class="subtitle-text">
+            <p>for too long dogs have ruled the world…</p>
+        </div>
+    </header>
+    <div class="block2" id="powered-by-solana">
+        <div class="block2__links">
+            <a href="https://twitter.com/mewsworld" target="_blank" class="link">
+                <img src="assets/images/twitter.png" alt="">
+            </a>
+            <a href="https://t.me/mewsworld" target="_blank" class="link">
+                <img src="assets/images/Tg.svg" alt="">
+            </a>
+            <a href="https://www.coingecko.com/en/coins/mew" target="_blank" class="link">
+                <img src="assets/images/Mask_group.svg" alt="">
+            </a>
+            <a href="https://coinmarketcap.com/currencies/mew" target="_blank" class="link">
+                <img src="assets/images/Subtract.png" alt="">
+            </a>
+            <a href="https://dexscreener.com/solana/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5" target="_blank" class="link">
+                <img src="assets/images/1.svg" alt="">
+            </a>
+            <a href="https://www.dextools.io/app/en/solana/pair-explorer/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5" target="_blank" class="link">
+                <img src="assets/images/2.png" alt="">
+            </a>
+            <a href="https://www.okx.com/web3/dex-swap" target="_blank" class="link">
+                <img src="assets/images/okx_dex_logo_white.svg" alt="">
+            </a>
+            <a href="https://solscan.io/token/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5" target="_blank" class="link">
+                <img src="assets/images/solscan.png" alt="">
+            </a>
+            <a href="https://phantom.app/" target="_blank" class="link">
+                <img src="assets/images/phantom.png" alt="">
+            </a>
+        </div>
+        <img class="solana" src="assets/images/solana.svg" alt="">
+        <div class="block2__widget">
+            <div id="integrated-terminal"></div> 
+        </div>
+
+    </div>
+    <div class="block3">
+    </div>
+    <div class="block7">
+        <div class="text2">
+            <p>i will save them… all of them…</p>
+        </div>
+    </div>
+    <div class="block5">
+    </div>
+    <div class="block4">
+        <p>it’s the dawn of a new era… </p>
+    </div>
+    <div class="block6">
+</div>
+    </div>
+    <footer class="footer">
+        <p class="footer__text"><a href="#powered-by-solana">cat in a dogs world (MEW)</a></p>
+        <div class="footer__links">
+            <a href="https://twitter.com/mewsworld" target="_blank" class="footer__link">
+                <img src="assets/images/twitter2.svg" alt="twitter">
+            </a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        
+        window.Jupiter.init({
+          displayMode: "integrated",
+          integratedTargetId: "integrated-terminal",
+          endpoint: "https://docs-demo.solana-mainnet.quiknode.pro",
+          passThroughWallet: true,
+          strictTokenList: false,
+          formProps: {
+        	  fixedInputMint: false,
+        	  fixedOutputMint: true,
+        	  swapMode: "ExactIn",
+        	  initialInputMint: "So11111111111111111111111111111111111111112",
+        	  initialOutputMint: "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"  
+          }
+          
+        });
+      </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</body>
+</html>
